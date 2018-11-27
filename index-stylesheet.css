@@ -17,6 +17,7 @@ nav{background-color: #33363b;
     padding: 12px;
     width: 100%;
     text-align: center;
+    min-width: 100px;
 }
 #pcnav div{grid-column: span 6;
 }
