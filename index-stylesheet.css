@@ -26,3 +26,7 @@ nav{background-color: #33363b;
 #pcnav img{width: 100%;
     min-width: 100px;
 }
+@media(max-width: 100px){
+  nav
+  {display: none}
+}
