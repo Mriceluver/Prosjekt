@@ -6,11 +6,16 @@ body{font-family: sans-serif;
 #dropdown{
 }
 
-#pcnav{display: flex;
-    flex-direction: row;
+#pcnav{display: grid;
+    grid-template-columns: repeat(6,1fr);
 }
 #pcnav a{text-decoration: none;
     background-color: #33363b;
     color:#eaeaea;
     padding: 12px;
+    width: 100%;
+}
+#pcnav.navimg{
+    background-image: url("bilder/SCC logo.PNG");
+    padding: 0;
 }
