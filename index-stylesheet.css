@@ -16,12 +16,11 @@ nav{background-color: #33363b;
     color:#eaeaea;
     padding: 12px;
     width: 100%;
-}
-#pcnav .navimg{
-    background-image: url("bilder/SCC logo.PNG");
-    background-size: contain;
-    padding: 0;
-    background-repeat: no-repeat;
+    text-align: center;
 }
 #pcnav div{grid-column: span 6;
+}
+img{width: 100%;
+    min-width: 100px;
+
 }
