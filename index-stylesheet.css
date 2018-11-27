@@ -5,6 +5,7 @@ body{font-family: sans-serif;
   min-width: 600px;
 }
 nav{background-color: #33363b;
+  position: fixed;
 }
 #mobilenav{display: none;
 }
