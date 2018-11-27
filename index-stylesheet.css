@@ -1,0 +1,16 @@
+body{font-family: sans-serif;
+}
+
+#mobilenav{display: none;
+}
+#dropdown{
+}
+
+#pcnav{display: flex;
+    flex-direction: row;
+}
+#pcnav a{text-decoration: none;
+    background-color: #33363b;
+    color:#eaeaea;
+    padding: 12px;
+}
