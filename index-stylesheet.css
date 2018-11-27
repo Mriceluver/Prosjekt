@@ -1,13 +1,15 @@
 body{font-family: sans-serif;
 }
+nav{background-color: #33363b;
 
+}
 #mobilenav{display: none;
 }
 #dropdown{
 }
 
 #pcnav{display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(12,1fr);
 }
 #pcnav a{text-decoration: none;
     background-color: #33363b;
@@ -15,7 +17,11 @@ body{font-family: sans-serif;
     padding: 12px;
     width: 100%;
 }
-#pcnav.navimg{
+#pcnav .navimg{
     background-image: url("bilder/SCC logo.PNG");
+    background-size: contain;
     padding: 0;
+    background-repeat: no-repeat;
+}
+#pcnav div{grid-column: span 6;
 }
