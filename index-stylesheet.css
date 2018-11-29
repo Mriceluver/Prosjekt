@@ -4,7 +4,7 @@
 body{font-family: sans-serif;
   min-width: 600px;
 }
-nav{background-color: #33363b;
+nav{background-color: #364699;
   position: fixed;
 }
 #mobilenav{display: none;
@@ -16,10 +16,10 @@ nav{background-color: #33363b;
     grid-template-columns: repeat(12,1fr);
 }
 #pcnav a:not(.navimg){text-decoration: none;
-    background-color: #33363b;
+    background-color: #364699;
     color:#eaeaea;
-    padding: 12px;
     width: 100%;
+    padding: 12px 0;
     text-align: center;
     min-width: 75px;
 }
