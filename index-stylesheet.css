@@ -3,6 +3,7 @@
 }
 body{font-family: sans-serif;
   min-width: 600px;
+    background-color: #eaeaeb;
 }
 nav{background-color: #364699;
   position: fixed;
@@ -23,7 +24,10 @@ nav{background-color: #364699;
     text-align: center;
     min-width: 75px;
 }
-#pcnav a:hover{background-color: #5b5e62;
+#pcnav a:hover{background-color: #4050A3;
+}
+#pcnav a:not(.navimg):active{background-color: white;
+    color: #222222;
 }
 #pcnav div{grid-column: span 6;}
 
@@ -31,6 +35,8 @@ nav{background-color: #364699;
   width: 100%;
   min-width: 100px;
   padding: 0;
+}
+.navimg:hover{filter: brightness(125%);
 }
 
 
