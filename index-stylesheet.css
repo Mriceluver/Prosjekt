@@ -38,5 +38,22 @@ nav{background-color: #364699;
 }
 .navimg:hover{filter: brightness(125%);
 }
-
+@media(orientation: portrait){
+  #pcnav{
+    display: none;
+  }
+  #mobilenav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+  }
+  #dropdown a{
+    display: none;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+  }
+  #dropdown:hover a{
+    display: block;
+  }
+}
 
