@@ -23,6 +23,8 @@ nav{background-color: #33363b;
     text-align: center;
     min-width: 75px;
 }
+#pcnav a:hover{background-color: #5b5e62;
+}
 #pcnav div{grid-column: span 6;}
 
 .navimg img{
