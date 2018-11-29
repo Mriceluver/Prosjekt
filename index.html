@@ -10,12 +10,14 @@
 <body>
 <nav>
   <div id="mobilenav">
-    <div id="dropdown">
+    <div id="dropdown" onclick="dropdown()" class="topnav">☰
+      <div id="dropcontent">
       <a href="artikkel1.html">Artikkel 1</a>
       <a href="artikkel1.html">Artikkel 2</a>
       <a href="artikkel1.html">Artikkel 3</a>
       <a href="">Om oss</a>
       <a href="">Doner</a>
+      </div>
     </div>
     <a href="index.html" class="navimg"><img src="Bilder/SCC%20logo.PNG" alt=""></a>
   </div>
@@ -30,10 +32,17 @@
   </div>
 </nav>
 <main>
-
 </main>
 <footer>
-
 </footer>
+<script>
+  function dropdown() {
+    var x= document.getElementById("dropdown")
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+  }}
+</script>
 </body>
 </html>

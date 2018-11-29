@@ -44,16 +44,24 @@ nav{background-color: #364699;
   }
   #mobilenav{
     display: grid;
-    grid-template-columns: 1fr 1fr 4fr;
-  }
-  #dropdown a{
-    display: none;
-    text-decoration: none;
+
+    grid-template-columns: 1fr 2fr 6fr;
     color: white;
-    padding: 12px;
+    font-size: 7vw;
+    text-align: center;
   }
-  #dropdown:hover a{
+  #dropcontent{
+    display: none;
+  }
+  #dropdown:enabled #dropcontent{
     display: block;
   }
+  #dropcontent a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-size: 4vw;
+  }
+
 }
 
