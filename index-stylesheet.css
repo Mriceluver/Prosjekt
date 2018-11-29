@@ -15,7 +15,7 @@ nav{background-color: #33363b;
 #pcnav{display: grid;
     grid-template-columns: repeat(12,1fr);
 }
-#pcnav a{text-decoration: none;
+#pcnav a:not(.navimg){text-decoration: none;
     background-color: #33363b;
     color:#eaeaea;
     padding: 12px;
@@ -25,8 +25,9 @@ nav{background-color: #33363b;
 }
 #pcnav div{grid-column: span 6;}
 
-#pcnav img{width: 100%;
-    min-width: 100px;
+.navimg img{
+  width: 100%;
+  min-width: 100px;
   padding: 0;
 }
 
