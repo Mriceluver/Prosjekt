@@ -80,32 +80,8 @@ body{
   font-family: sans-serif;
   background-color: #eaeaeb;
 }
-.paralaks {
-    background-image: url("bilder/Hovedbilde.jpg");
-    height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-main h1{background-color:#33363b;
-    color: white;
-    text-align: center;
-    padding: 60px;
-}
-.innledning{padding: 50px;
-    background-color: white;
-}
-h2{text-align: center;
-}
-#mellomrom{
-    background-image: url("bilder/penger.jpg");
-    height: 600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+/*nav*/
 .topnav{
   background-color:#364699;
   overflow: hidden;
@@ -166,4 +142,26 @@ h2{text-align: center;
     display: block;
     text-align: left;
   }
+}
+
+/* Main*/
+.paralaks {
+  height: 100vh;
+  background: url("bilder/Hovedbilde.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+main h1{background-color:#33363b;
+  color: white;
+  text-align: center;
+  padding: 60px;
+}
+.innledning{padding: 50px;
+  background-color: white;
+}
+h2{text-align: center;
+}
+#mellomrom{
+  height: 100vh;
+  background: url("bilder/penger.jpg") no-repeat fixed center;
+  background-size: cover;
 }
