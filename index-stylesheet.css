@@ -1,3 +1,4 @@
+/*
 *{margin: 0;
     padding: 0;
 }
@@ -38,8 +39,7 @@ nav{background-color: #364699;
 }
 .navimg:hover{filter: brightness(125%);
 }
-@media(orientation: portrait){
-  #pcnav{
+@media(orientation: portrait){  #pcnav{
     display: none;
   }
   #mobilenav{
@@ -62,6 +62,93 @@ nav{background-color: #364699;
     color: white;
     font-size: 4vw;
   }
-
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive div {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .mobilenav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
 }
-
+*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  background-color: #eaeaeb;
+}
+.topnav{
+  background-color:#364699;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.topnav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  float: left;
+  min-width: 100px;
+}
+.topnav #navimg{
+  padding: 0;
+}
+.topnav #navimg img{
+  width: 100px;
+}
+.topnav .active:not(#navimg){
+  background-color: #5666b9;
+}
+.topnav .icon{
+  display: none;
+}
+.topnav a:hover:not(#navimg){
+  background-color: #4050A3;
+}
+.topnav a:active{
+  background-color: white;
+  color: #222222;
+}
+.topnav .right{
+  float: right;
+}
+@media screen and (orientation:portrait) {
+  .topnav a:not(:first-child){
+    display: none;
+  }
+  .topnav #navimg{
+    display: block;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}

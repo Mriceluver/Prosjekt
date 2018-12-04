@@ -9,8 +9,8 @@
 </head>
 <body>
 <nav>
-  <div id="mobilenav">
-    <div id="dropdown" onclick="dropdown()" class="topnav">☰
+  <!-- <div id="mobilenav">
+    <a id="dropdown" onclick="dropdown()" class="topnav">☰
       <div id="dropcontent">
       <a href="artikkel1.html">Artikkel 1</a>
       <a href="artikkel1.html">Artikkel 2</a>
@@ -18,7 +18,7 @@
       <a href="">Om oss</a>
       <a href="">Doner</a>
       </div>
-    </div>
+    </a>
     <a href="index.html" class="navimg"><img src="Bilder/SCC%20logo.PNG" alt=""></a>
   </div>
   <div id="pcnav">
@@ -30,6 +30,17 @@
     <a href="">Omoss</a>
     <a href="">Doner</a>
   </div>
+  -->
+  <div class="topnav" id="myTopnav">
+    <a href="javascript:void(0);" class="icon" onclick="dropdown()">&#9776;</a>
+    <a href="" class="active" id="navimg"><img src="Bilder/SCC%20logo.PNG" alt=""></a>
+    <a href="">Artikkel 1</a>
+    <a href="">Artikkel 2</a>
+    <a href="">Artikkel 3</a>
+    <a href="" class="right">Om oss</a>
+    <a href="" class="right">Doner</a>
+
+  </div>
 </nav>
 <main>
 </main>
@@ -37,7 +48,7 @@
 </footer>
 <script>
   function dropdown() {
-    var x= document.getElementById("dropdown")
+    var x= document.getElementById("myTopnav");
     if (x.className === "topnav") {
       x.className += " responsive";
     } else {
