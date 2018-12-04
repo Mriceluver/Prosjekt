@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>SSC</title>
     <link type="text/css"
         rel="stylesheet"
         href="index-stylesheet.css">
+  <link rel="shortcut icon"
+        href="bilder/SCC%20logo.PNG">
 </head>
 <body>
 <nav>
@@ -31,7 +33,7 @@
     <a href="">Doner</a>
   </div>
   -->
-  <div class="topnav" id="myTopnav">
+  <div class="topnav" id="topnav">
     <a href="javascript:void(0);" class="icon" onclick="dropdown()">&#9776;</a>
     <a href="" class="active" id="navimg"><img src="bilder/SCC%20logo.PNG" alt=""></a>
     <a href="">Artikkel 1</a>
@@ -48,7 +50,7 @@
 </footer>
 <script>
   function dropdown() {
-    var x= document.getElementById("myTopnav");
+    var x= document.getElementById("topnav");
     if (x.className === "topnav") {
       x.className += " responsive";
     } else {
