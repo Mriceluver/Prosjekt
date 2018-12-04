@@ -39,17 +39,6 @@ nav{background-color: #364699;
 }
 .navimg:hover{filter: brightness(125%);
 }
-@media(orientation: portrait){  #pcnav{
-    display: none;
-  }
-  #mobilenav{
-    display: grid;
-
-    grid-template-columns: 1fr 2fr 6fr;
-    color: white;
-    font-size: 7vw;
-    text-align: center;
-  }
   #dropcontent{
     display: none;
   }
@@ -90,6 +79,32 @@ nav{background-color: #364699;
 body{
   font-family: sans-serif;
   background-color: #eaeaeb;
+}
+.paralaks {
+    background-image: url("bilder/Hovedbilde.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main h1{background-color:#33363b;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+.innledning{padding: 50px;
+    background-color: white;
+}
+h2{text-align: center;
+}
+#mellomrom{
+    background-image: url("bilder/penger.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .topnav{
   background-color:#364699;
