@@ -101,7 +101,8 @@ body{
   padding: 0;
 }
 .topnav #navimg img{
-  width: 100px;
+  width: 35vw;
+  max-width: 150px;
 }
 .topnav .active:not(#navimg){
   background-color: #5666b9;
