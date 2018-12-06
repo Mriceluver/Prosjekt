@@ -179,3 +179,8 @@ h2{
     background-size: auto 100%;
   }
 }
+.linker{display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+
+}
