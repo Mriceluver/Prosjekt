@@ -195,3 +195,13 @@ h2{
     grid-template-columns: 1fr;
 }
 }
+/* CSS for Footer*/
+footer{
+    background-color: #364699;
+    font-size: 4vh;
+    color: white;
+    padding: 12px;
+}
+footer a{color: white;
+
+}
