@@ -81,7 +81,7 @@ body{
   background-color: #eaeaeb;
 }
 
-/*nav*/
+/*CSS for nav*/
 .topnav{
   background-color:#364699;
   overflow: hidden;
@@ -131,7 +131,9 @@ body{
     float: right;
     display: block;
   }
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -145,13 +147,14 @@ body{
   }
 }
 
-/* Main*/
+/* CSS for main*/
 .paralaks {
   height: 80vh;
   background: url("bilder/Hovedbilde.jpg") no-repeat fixed center;
   background-size: cover;
 }
-main h1{background-color:#33363b;
+main h1{
+  background-color:#33363b;
   color: white;
   text-align: center;
   padding: 60px;
@@ -159,7 +162,8 @@ main h1{background-color:#33363b;
 .innledning{padding: 50px;
   background-color: #eaeaeb;
 }
-h2{text-align: center;
+h2{
+  text-align: center;
 }
 #mellomrom{
   height: 80vh;
