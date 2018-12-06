@@ -147,7 +147,7 @@ body{
 
 /* Main*/
 .paralaks {
-  height: 100vh;
+  height: 80vh;
   background: url("bilder/Hovedbilde.jpg") no-repeat fixed center;
   background-size: cover;
 }
@@ -162,7 +162,7 @@ main h1{background-color:#33363b;
 h2{text-align: center;
 }
 #mellomrom{
-  height: 100vh;
+  height: 80vh;
   background: url("bilder/penger.jpg") no-repeat fixed center;
   background-size: cover;
 }
