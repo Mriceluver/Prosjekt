@@ -201,7 +201,8 @@ footer{
     font-size: 4vh;
     color: white;
     padding: 12px;
+  text-align: right;
 }
 footer a{color: white;
-
+float: left;
 }
