@@ -131,7 +131,9 @@ body{
     float: right;
     display: block;
   }
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
@@ -151,15 +153,18 @@ body{
   background: url("bilder/Hovedbilde.jpg") no-repeat fixed center;
   background-size: cover;
 }
-main h1{background-color:#33363b;
+main h1{
+  background-color:#33363b;
   color: white;
   text-align: center;
   padding: 60px;
 }
-.innledning{padding: 50px;
+.innledning{
+  padding: 50px;
   background-color: white;
 }
-h2{text-align: center;
+h2{
+  text-align: center;
 }
 #mellomrom{
   height: 90vh;
