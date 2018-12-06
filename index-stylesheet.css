@@ -195,6 +195,10 @@ h2{
     grid-template-columns: 1fr;
 }
 }
+.linker img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.65s;
+}
 /* CSS for Footer*/
 footer{
     background-color: #364699;
