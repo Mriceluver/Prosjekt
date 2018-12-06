@@ -182,3 +182,16 @@ h2{
 .linker{display: grid;
     grid-template-columns: repeat(2,1fr);
 }
+.linker a img{
+    width: 100%
+}
+.linker a{
+    text-decoration: none;
+    color: #222222;
+    font-size: 10vh;
+    text-align: center;
+}
+@media (max-width: 700px) {.linker{
+    grid-template-columns: 1fr;
+}
+}
