@@ -82,13 +82,13 @@ body{
 }
 
 /*CSS for nav*/
-.topnav{
+.nav{
   background-color:#364699;
   overflow: hidden;
   position: fixed;
   width: 100%;
 }
-.topnav a {
+.nav a {
   color: white;
   text-align: center;
   text-decoration: none;
@@ -97,50 +97,50 @@ body{
   float: left;
   min-width: 100px;
 }
-.topnav #navimg{
+.nav #navimg{
   padding: 0;
 }
-.topnav #navimg img{
+.nav #navimg img{
   width: 35vw;
   max-width: 150px;
 }
-.topnav .active:not(#navimg){
+.nav .active:not(#navimg){
   background-color: #5666b9;
 }
-.topnav .icon{
+.nav .icon{
   display: none;
 }
-.topnav a:hover:not(#navimg){
+.nav a:hover:not(#navimg){
   background-color: #4050A3;
 }
-.topnav a:active{
+.nav a:active{
   background-color: white;
   color: #222222;
 }
-.topnav .right{
+.nav .right{
   float: right;
 }
 @media screen and (orientation:portrait) {
-  .topnav a:not(:first-child){
+  .nav a:not(:first-child){
     display: none;
   }
-  .topnav #navimg{
+  .nav #navimg{
     display: block;
   }
-  .topnav a.icon {
+  .nav a.icon {
     float: right;
     display: block;
   }
-  .topnav.responsive {
+  .nav.responsive {
     position: relative;
   }
-  .topnav.responsive a.icon {
+  .nav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
     text-align: center;
   }
-  .topnav.responsive a {
+  .nav.responsive a {
     float: none;
     display: block;
     text-align: left;

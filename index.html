@@ -33,7 +33,7 @@
     <a href="">Doner</a>
   </div>
   -->
-  <div class="topnav" id="topnav">
+  <div class="nav" id="nav">
     <a href="javascript:void(0);" class="icon" onclick="dropdown()">&#9776;</a> <!-- Dette er en knapp som vises i mobilmodus. Når man trykker på den, blir resten av nav-baren synlig igjen -->
     <a href="" class="active" id="navimg"><img src="bilder/SCC%20logo.PNG" alt=""></a> <!-- Logoen, som også er en link til index-siden -->
     <a href="">Dataangrep</a>
@@ -60,13 +60,13 @@
   Laget av Arham og Marius
   <a href="Artikkel3.html">Kilder</a>
 </footer>
-<script>
+<script> <!--Denne funksjonen endrer classenavnet til nav-baren, slik at annen CSS brukes på den når man trykker på knapppen over-->
   function dropdown() {
-    var x= document.getElementById("topnav");
-    if (x.className === "topnav") {
+    var x= document.getElementById("nav");
+    if (x.className === "nav") {
       x.className += " responsive";
     } else {
-      x.className = "topnav"
+      x.className = "nav"
     }
   }
 </script>
