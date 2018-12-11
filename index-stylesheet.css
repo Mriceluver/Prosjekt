@@ -163,10 +163,12 @@ main h1{
 }
 h2{
   text-align: center;
+  padding-bottom: 10px;
 }
+
 #mellomrom{
   height: 80vh;
-  background: url("bilder/penger.jpg") no-repeat fixed center;
+  background: url("bilder/bitcoin.jpg") no-repeat fixed center;
   background-size: cover;
 }
 @media screen and (orientation: portrait){
@@ -192,7 +194,6 @@ h2{
 .linker a img{
   width: 100%
 }
-
 @media (max-width: 700px) {
   .linker{
     grid-template-columns: 1fr;
