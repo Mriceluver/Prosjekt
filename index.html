@@ -14,9 +14,9 @@
   <!-- <div id="mobilenav">
     <a id="dropdown" onclick="dropdown()" class="topnav">☰
       <div id="dropcontent">
-      <a href="artikkel1.html">Artikkel 1</a>
-      <a href="artikkel1.html">Artikkel 2</a>
-      <a href="artikkel1.html">Artikkel 3</a>
+      <a href="dataangrep.html">Artikkel 1</a>
+      <a href="dataangrep.html">Artikkel 2</a>
+      <a href="dataangrep.html">Artikkel 3</a>
       <a href="">Om oss</a>
       <a href="">Doner</a>
       </div>
@@ -25,9 +25,9 @@
   </div>
   <div id="pcnav">
     <a href="" class="navimg"><img src="Bilder/SCC%20logo.PNG" alt=""></a>
-    <a href="artikkel1.html">Artikkel1</a>
-    <a href="artikkel1.html">Artikkel2</a>
-    <a href="artikkel1.html">Artikkel3</a>
+    <a href="dataangrep.html">Artikkel1</a>
+    <a href="dataangrep.html">Artikkel2</a>
+    <a href="dataangrep.html">Artikkel3</a>
     <div></div>
     <a href="">Omoss</a>
     <a href="">Doner</a>
@@ -36,11 +36,11 @@
   <div class="nav" id="nav">
     <a href="javascript:void(0);" class="icon" onclick="dropdown()">&#9776;</a> <!-- Dette er en knapp som vises i mobilmodus. Når man trykker på den, blir resten av nav-baren synlig igjen -->
     <a href="" class="active" id="navimg"><img src="bilder/SCC%20logo.PNG" alt=""></a> <!-- Logoen, som også er en link til index-siden -->
-    <a href="">Dataangrep</a>
-    <a href="">Sikkerhet</a>
-    <a href="">Kilder</a>
+    <a href="dataangrep.html">Dataangrep</a>
+    <a href="sikkerhet.html">Sikkerhet</a>
+    <a href="kilder.html">Kilder</a>
     <a href="" class="right">Om oss</a>
-    <a href="" class="right">Doner</a>
+    <a href="https://www.paypal.me/mriceluver" target="_blank" class="right">Doner</a>
   </div>
 </nav>
 <main>
@@ -52,15 +52,16 @@
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. At consequuntur deserunt dolores, iure labore laboriosam magni nemo, officia provident quasi quibusdam quisquam repellat repudiandae sequi sit totam vel veniam voluptas!
   </div>
   <div class="linker">
-    <a href="artikkel1.html"><img src="bilder/dataangrep.jpg" alt="Dataangrep">Dataangrep</a>
-    <a href="Artikkel2.html"><img src="bilder/datasikkerhet.png" alt="">Sikkerhet</a>
+    <a href="dataangrep.html"><img src="bilder/dataangrep.jpg" alt="Dataangrep">Dataangrep</a>
+    <a href="sikkerhet.html"><img src="bilder/datasikkerhet.png" alt="">Sikkerhet</a>
   </div>
 </main>
 <footer>
   Laget av Arham og Marius
-  <a href="Artikkel3.html">Kilder</a>
+  <a href="kilder.html">Kilder</a>
 </footer>
-<script> <!--Denne funksjonen endrer classenavnet til nav-baren, slik at annen CSS brukes på den når man trykker på knapppen over-->
+<!-- Dette er en funksjon som endrer klassenavnet til naven når den kjøres. Da brukes annen CSS på navbaren, og det er det som gjør at naven dukker opp og forsvinner når man trykker på knappen (på mobil/tynn skjerm) -->
+<script>
   function dropdown() {
     var x= document.getElementById("nav");
     if (x.className === "nav") {
