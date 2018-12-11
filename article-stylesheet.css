@@ -73,6 +73,10 @@ body{
     text-align: left;
   }
 }
+/* CSS for Main */
+main{
+  padding: 10px;
+}
 /* CSS for Footer*/
 footer{
   background-color: #364699;
