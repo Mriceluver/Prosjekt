@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+  background-color: #eaeaeb;
+}
+
+/*CSS for nav*/
+.nav{
+  background-color:#364699;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.nav a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  display: block;
+  float: left;
+  min-width: 100px;
+}
+.nav #navimg{
+  padding: 0;
+}
+.nav #navimg img{
+  width: 35vw;
+  max-width: 150px;
+}
+.nav .active:not(#navimg){
+  background-color: #5666b9;
+}
+.nav .icon{
+  display: none;
+}
+.nav a:hover:not(#navimg){
+  background-color: #4050A3;
+}
+.nav a:active{
+  background-color: white;
+  color: #222222;
+}
+.nav .right{
+  float: right;
+}
+@media (max-width: 700px) {
+  .nav a:not(:first-child){
+    display: none;
+  }
+  .nav #navimg{
+    display: block;
+  }
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  .nav.responsive {
+    position: relative;
+  }
+  .nav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+/* CSS for Main */
+main{
+  padding: 10px;
+}
+/* CSS for Footer*/
+footer{
+  background-color: #364699;
+  font-size: 20px;
+  color: white;
+  padding: 12px;
+  text-align: right;
+}
+footer a{
+  color: white;
+  float: left;
+}
+
