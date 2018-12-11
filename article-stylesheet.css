@@ -14,6 +14,7 @@ body{
   overflow: hidden;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 .nav a {
   color: white;
@@ -58,9 +59,7 @@ body{
     float: right;
     display: block;
   }
-  .nav.responsive {
-    position: relative;
-  }
+  /* Dette er CSSen som brukes når knappen trykkes på en gang, den gjør linkene i nav synlige. Om den trykkes på igjen, brukes CSSen over, og navbaren blir liten igjen. */
   .nav.responsive a.icon {
     position: absolute;
     right: 0;
