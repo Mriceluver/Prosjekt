@@ -76,6 +76,9 @@ body{
 main{
   padding: 10px;
 }
+#empty{
+  height: 12vh;
+}
 /* CSS for Footer*/
 footer{
   background-color: #364699;
@@ -87,5 +90,7 @@ footer{
 footer a{
   color: white;
   float: left;
+}
+h2{padding: 10px 0;
 }
 
