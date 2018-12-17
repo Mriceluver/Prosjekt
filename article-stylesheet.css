@@ -99,6 +99,9 @@ main article p{
 #empty{
   height: 12vh;
 }
+main img{
+  margin: 5vh 0;
+}
 /* CSS for Footer*/
 footer{
   background-color: #364699;
