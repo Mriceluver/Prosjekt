@@ -79,6 +79,7 @@ nav{background-color: #364699;
 body{
   font-family: sans-serif;
   background-color: #eaeaeb;
+  font-size: 1.5em;
 }
 
 /*CSS for nav*/
@@ -121,7 +122,7 @@ body{
 .nav .right{
   float: right;
 }
-@media (max-width: 700px) {
+@media (orientation: portrait) {
   .nav a:not(:first-child){
     display: none;
   }
@@ -195,7 +196,7 @@ h2{
 .linker a img{
   width: 100%
 }
-@media (max-width: 700px) {
+@media (orientation: portrait) {
   .linker{
     grid-template-columns: 1fr;
   }
