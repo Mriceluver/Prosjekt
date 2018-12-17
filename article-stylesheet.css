@@ -79,6 +79,11 @@ main{
   display: grid;
   grid-template-columns: 1fr 60vw 1fr;
 }
+h2{padding: 10px 0;
+}
+h1{padding: 10px 0;
+    margin-top: 5vh;
+}
 #space{
   height: 75px;
   grid-column: 3;
@@ -101,6 +106,7 @@ main article p{
 }
 main img{
   margin: 5vh 0;
+  width:100%;
 }
 /* CSS for Footer*/
 footer{
