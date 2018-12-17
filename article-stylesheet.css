@@ -79,6 +79,11 @@ main{
   display: grid;
   grid-template-columns: 1fr 60vw 1fr;
 }
+h2{padding: 10px 0;
+}
+h1{padding: 10px 0;
+    margin-top: 5vh;
+}
 #space{
   height: 75px;
   grid-column: 3;
@@ -99,6 +104,9 @@ main article p{
 #empty{
   height: 12vh;
 }
+img{width: 100%;
+
+}
 /* CSS for Footer*/
 footer{
   background-color: #364699;
@@ -111,9 +119,5 @@ footer a{
   color: white;
   float: left;
 }
-h2{padding: 10px 0;
-}
-h1{padding: 10px 0;
-    margin-top: 5vh;
-}
+
 
