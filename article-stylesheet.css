@@ -88,6 +88,9 @@ main{
 main article{
   width:100%;
 }
+main article p{
+  margin: 0 0 2vh 0;
+}
 @media screen and (orientation: portrait){
   main{
     grid-template-columns: 1fr;
