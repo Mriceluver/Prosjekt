@@ -147,6 +147,7 @@ body{
 }
 
 /* CSS for main*/
+
 .paralaks {
   height: 80vh;
   background: url("bilder/Hovedbilde.jpg") no-repeat fixed center;
@@ -158,15 +159,17 @@ main h1{
   text-align: center;
   padding: 60px;
 }
-.innledning{padding: 50px;
+.innledning{padding: 30px;
   background-color: #eaeaeb;
 }
 h2{
   text-align: center;
+  padding-bottom: 10px;
 }
+
 #mellomrom{
   height: 80vh;
-  background: url("bilder/penger.jpg") no-repeat fixed center;
+  background: url("bilder/bitcoin.jpg") no-repeat fixed center;
   background-size: cover;
 }
 @media screen and (orientation: portrait){
@@ -192,7 +195,6 @@ h2{
 .linker a img{
   width: 100%
 }
-
 @media (max-width: 700px) {
   .linker{
     grid-template-columns: 1fr;
