@@ -148,7 +148,6 @@ body{
 }
 
 /* CSS for main*/
-
 .paralaks {
   height: 80vh;
   background: url("bilder/Hovedbilde.jpg") no-repeat fixed center;
@@ -159,6 +158,9 @@ main h1{
   color: white;
   text-align: center;
   padding: 60px;
+}
+#innledninglink{
+    color: white;
 }
 .innledning{padding: 30px;
   background-color: #eaeaeb;
