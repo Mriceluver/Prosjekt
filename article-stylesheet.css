@@ -32,7 +32,7 @@ body{
   width: 35vw;
   max-width: 150px;
 }
-.nav .active:not(#navimg){
+.nav #active:not(#navimg){
   background-color: #5666b9;
 }
 .nav .icon{
@@ -41,14 +41,14 @@ body{
 .nav a:hover:not(#navimg){
   background-color: #4050A3;
 }
-.nav a:active{
+.nav a:active:not(#navimg){
   background-color: white;
   color: #222222;
 }
 .nav .right{
   float: right;
 }
-@media (max-width: 700px) {
+@media (orientation: portrait) {
   .nav a:not(:first-child){
     display: none;
   }
@@ -74,7 +74,24 @@ body{
 }
 /* CSS for Main */
 main{
-  padding: 10px;
+  padding: 20px;
+  font-size: 1.5em;
+  display: grid;
+  grid-template-columns: 1fr 50vw 1fr;
+}
+#space{
+  height: 75px;
+  grid-column: 3;
+}
+.sidebar{
+}
+main article{
+  width:100%;
+}
+@media screen and (orientation: portrait){
+  main{
+    grid-template-columns: 1fr;
+  }
 }
 /* CSS for Footer*/
 footer{

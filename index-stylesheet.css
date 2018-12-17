@@ -114,7 +114,7 @@ body{
 .nav a:hover:not(#navimg){
   background-color: #4050A3;
 }
-.nav a:active{
+.nav a:active:not(#navimg){
   background-color: white;
   color: #222222;
 }
