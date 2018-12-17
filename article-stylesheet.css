@@ -6,6 +6,7 @@
 body{
   font-family: sans-serif;
   background-color: #eaeaeb;
+  font-size: 1.5em;
 }
 
 /*CSS for nav*/
@@ -75,7 +76,6 @@ body{
 /* CSS for Main */
 main{
   padding: 20px;
-  font-size: 1.5em;
   display: grid;
   grid-template-columns: 1fr 60vw 1fr;
 }
