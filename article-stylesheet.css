@@ -104,8 +104,9 @@ main article p{
 #empty{
   height: 12vh;
 }
-img{width: 100%;
-
+main img{
+  margin: 5vh 0;
+  width:100%;
 }
 /* CSS for Footer*/
 footer{
@@ -119,5 +120,9 @@ footer a{
   color: white;
   float: left;
 }
-
+h2{padding: 10px 0;
+}
+h1{padding: 10px 0;
+    margin-top: 5vh;
+}
 
