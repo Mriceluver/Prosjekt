@@ -77,7 +77,7 @@ main{
   padding: 20px;
   font-size: 1.5em;
   display: grid;
-  grid-template-columns: 1fr 50vw 1fr;
+  grid-template-columns: 1fr 60vw 1fr;
 }
 #space{
   height: 75px;
